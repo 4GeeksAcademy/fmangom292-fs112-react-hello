@@ -10,6 +10,12 @@
 
 */
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .card {
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
@@ -18,8 +24,12 @@
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-.foot{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+  height: 100%;
 }

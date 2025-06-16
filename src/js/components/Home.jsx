@@ -20,16 +20,16 @@ const Home = () => {
 					<Jumbotron />
 				</div>
 				<div className="row g-1">
-					<div className="col-3">
+					<div className="col-xl-3 col-sm-6 col-xs-12">
 						<Card title="Título" description={description} />
 					</div>
-					<div className="col-3">
+					<div className="col-xl-3 col-sm-6 col-xs-12">
 						<Card title="Título" description={description} />
 					</div>
-					<div className="col-3">
+					<div className="col-xl-3 col-sm-6 col-xs-12">
 						<Card title="Título" description={description} />
 					</div>
-					<div className="col-3">
+					<div className="col-xl-3 col-sm-6 col-xs-12">
 						<Card title="Título" description={description} />
 					</div>
 				</div>
